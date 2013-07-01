@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone"],function(e,t,n){return n.Model.extend({defaults:{img:"http://placehold.it/260x180"}})});

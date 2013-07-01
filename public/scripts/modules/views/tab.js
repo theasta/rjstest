@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone","text!modules/templates/tab.mustache"],function(e,t,n,r){return n.View.extend({tagName:"li",render:function(){return this.$el.html(Mustache.render(r,this.model.toJSON())),this}})});

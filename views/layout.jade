@@ -1,0 +1,27 @@
+doctype 5
+html(lang="en")
+  head
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          ul.nav
+            li.home
+              a(href='/#') home
+            li.page1
+              a(href='/#page1') Page 1
+            li.page2
+              a(href='/#page2') Page 2
+    #main.container
+    if (isProduction)
+      script(src= rjsBaseUrl +  "/main.js")
+      script(type='text/javascript')
+        requirejs.config({
+          baseUrl: '#{rjsBaseUrl}'
+        });
+
+    else
+      script(src= rjsBaseUrl + "/vendors/requirejs/require.js", data-main=rjsBaseUrl + "/main")

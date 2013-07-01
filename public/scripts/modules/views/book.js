@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone","text!modules/templates/book.mustache"],function(e,t,n,r){return n.View.extend({className:"book tab-pane",render:function(){return this.$el.html(Mustache.render(r,this.model.toJSON())),this}})});

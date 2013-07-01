@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone","modules/models/book"],function(e,t,n,r){var i=n.Collection.extend({model:r});return i});
