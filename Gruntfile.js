@@ -14,21 +14,7 @@ module.exports = function(grunt) {
         '!public-dev/scripts/vendors/**/*.js',
       ],
       options: {
-        curly: true,
-        eqeqeq: false,
-        immed: true,
-        latedef: true,
-        newcap: true,
-        noarg: true,
-        sub: true,
-        undef: true,
-        unused: false,
-        boss: true,
-        eqnull: true,
-        node: true,
-        browser: true,
-        strict: true,
-        predef: [ 'define', 'Mustache' ]
+        jshintrc: '.jshintrc'
       }
     },
     watch: {

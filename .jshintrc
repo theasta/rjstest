@@ -1,0 +1,30 @@
+{
+  "curly"   : true,
+  "eqeqeq"  : false,
+  "immed"   : true,
+  "latedef" : true,
+  "newcap"  : true,
+  "noarg"   : true,
+  "sub"     : true,
+  "undef"   : true,
+  "unused"  : false,
+  "boss"    : true,
+  "eqnull"  : true,
+  "laxcomma": false,
+  "node"    : true,
+  "browser" : true,
+  "strict"  : true,
+  "globals" : {
+    "define"     : false,
+    "it"         : false,
+    "xit"        : false,
+    "describe"   : false,
+    "xdescribe"  : false,
+    "beforeEach" : true,
+    "afterEach"  : false,
+    "expect"     : false,
+    "spyOn"      : false,
+    "Mustache"   : false
+  }
+}
+
