@@ -15,16 +15,16 @@
   "browser" : true,
   "strict"  : true,
   "globals" : {
-    "define"     : false,
-    "it"         : false,
-    "xit"        : false,
-    "describe"   : false,
-    "xdescribe"  : false,
+    "define"     : true,
+    "it"         : true,
+    "xit"        : true,
+    "describe"   : true,
+    "xdescribe"  : true,
     "beforeEach" : true,
-    "afterEach"  : false,
-    "expect"     : false,
-    "spyOn"      : false,
-    "Mustache"   : false
+    "afterEach"  : true,
+    "expect"     : true,
+    "spyOn"      : true,
+    "Mustache"   : true
   }
 }
 
