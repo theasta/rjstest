@@ -1,5 +1,5 @@
 {
-  "name": "test-requirejs-build-tool",
+  "name": "rjstest",
   "description": "Testing requirejs build tool with a sample app",
   "version": "0.0.1",
   "author": {
@@ -7,6 +7,10 @@
     "email": "theasta@gmail.com"
   },
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theasta/rjstest.git"
+  },
   "scripts": {
     "start": "node server"
   },
